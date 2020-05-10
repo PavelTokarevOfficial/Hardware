@@ -36,6 +36,9 @@ namespace Hardware
             formSoldProduct.Show();
         }
 
-        
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
