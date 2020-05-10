@@ -15,6 +15,7 @@ namespace Hardware
         public FormMenu()
         {
             InitializeComponent();
+            if (Authorization.users.type != "admin") buttonAddStaff.Enabled =false;
         }
 
         private void buttonAddStaff_Click(object sender, EventArgs e)
@@ -34,5 +35,7 @@ namespace Hardware
             FormSoldProduct formSoldProduct = new FormSoldProduct();
             formSoldProduct.Show();
         }
+
+        
     }
 }

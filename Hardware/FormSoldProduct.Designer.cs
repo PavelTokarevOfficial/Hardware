@@ -61,52 +61,61 @@
             // 
             // comboBoxProduct
             // 
+            this.comboBoxProduct.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxProduct.FormattingEnabled = true;
             this.comboBoxProduct.Location = new System.Drawing.Point(179, 43);
             this.comboBoxProduct.Name = "comboBoxProduct";
-            this.comboBoxProduct.Size = new System.Drawing.Size(210, 21);
+            this.comboBoxProduct.Size = new System.Drawing.Size(210, 23);
             this.comboBoxProduct.TabIndex = 5;
             // 
             // comboBoxStaff
             // 
+            this.comboBoxStaff.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxStaff.FormattingEnabled = true;
             this.comboBoxStaff.Location = new System.Drawing.Point(395, 43);
             this.comboBoxStaff.Name = "comboBoxStaff";
-            this.comboBoxStaff.Size = new System.Drawing.Size(210, 21);
+            this.comboBoxStaff.Size = new System.Drawing.Size(210, 23);
             this.comboBoxStaff.TabIndex = 7;
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(368, 461);
+            this.buttonAdd.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAdd.Location = new System.Drawing.Point(419, 461);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(90, 36);
             this.buttonAdd.TabIndex = 9;
             this.buttonAdd.Text = "Добавить";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(449, 461);
+            this.buttonEdit.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonEdit.Location = new System.Drawing.Point(515, 461);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(90, 36);
             this.buttonEdit.TabIndex = 10;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(530, 461);
+            this.buttonDel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonDel.Location = new System.Drawing.Point(611, 461);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(90, 36);
             this.buttonDel.TabIndex = 11;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // listViewSoldProduct
             // 
+            this.listViewSoldProduct.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.listViewSoldProduct.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ID,
             this.IDProduct,
@@ -116,6 +125,7 @@
             this.Cost,
             this.IDStaff,
             this.Fio});
+            this.listViewSoldProduct.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewSoldProduct.FullRowSelect = true;
             this.listViewSoldProduct.GridLines = true;
             this.listViewSoldProduct.HideSelection = false;
@@ -136,11 +146,12 @@
             // IDProduct
             // 
             this.IDProduct.Text = "ID товара";
+            this.IDProduct.Width = 77;
             // 
             // Title
             // 
             this.Title.Text = "Название";
-            this.Title.Width = 65;
+            this.Title.Width = 82;
             // 
             // PartNumber
             // 
@@ -168,18 +179,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(176, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(42, 15);
             this.label1.TabIndex = 13;
             this.label1.Text = "Товар";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(392, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 13);
+            this.label3.Size = new System.Drawing.Size(65, 15);
             this.label3.TabIndex = 15;
             this.label3.Text = "Продавец";
             // 
@@ -187,7 +200,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 493);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(711, 502);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listViewSoldProduct);

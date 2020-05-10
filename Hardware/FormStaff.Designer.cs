@@ -58,32 +58,41 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(494, 302);
+            this.buttonAdd.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAdd.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAdd.Location = new System.Drawing.Point(470, 302);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(83, 36);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Добавить";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(575, 302);
+            this.buttonEdit.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonEdit.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonEdit.Location = new System.Drawing.Point(559, 302);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(83, 36);
             this.buttonEdit.TabIndex = 1;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(656, 302);
+            this.buttonDel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonDel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDel.Location = new System.Drawing.Point(648, 302);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(83, 36);
             this.buttonDel.TabIndex = 2;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // listViewStaff
@@ -143,30 +152,34 @@
             // 
             // textBoxPosition
             // 
+            this.textBoxPosition.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPosition.Location = new System.Drawing.Point(88, 147);
             this.textBoxPosition.Name = "textBoxPosition";
-            this.textBoxPosition.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPosition.Size = new System.Drawing.Size(100, 23);
             this.textBoxPosition.TabIndex = 4;
             // 
             // textBoxLastName
             // 
+            this.textBoxLastName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxLastName.Location = new System.Drawing.Point(88, 121);
             this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxLastName.Size = new System.Drawing.Size(100, 23);
             this.textBoxLastName.TabIndex = 5;
             // 
             // textBoxMiddleName
             // 
+            this.textBoxMiddleName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxMiddleName.Location = new System.Drawing.Point(88, 95);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxMiddleName.Size = new System.Drawing.Size(100, 23);
             this.textBoxMiddleName.TabIndex = 6;
             // 
             // textBoxFirstName
             // 
+            this.textBoxFirstName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFirstName.Location = new System.Drawing.Point(88, 69);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxFirstName.Size = new System.Drawing.Size(100, 23);
             this.textBoxFirstName.TabIndex = 7;
             // 
             // pictureBox1
@@ -181,68 +194,76 @@
             // labelFirstName
             // 
             this.labelFirstName.AutoSize = true;
-            this.labelFirstName.Location = new System.Drawing.Point(53, 72);
+            this.labelFirstName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFirstName.Location = new System.Drawing.Point(49, 72);
             this.labelFirstName.Name = "labelFirstName";
-            this.labelFirstName.Size = new System.Drawing.Size(29, 13);
+            this.labelFirstName.Size = new System.Drawing.Size(33, 15);
             this.labelFirstName.TabIndex = 9;
             this.labelFirstName.Text = "Имя";
             // 
             // labelMiddleName
             // 
             this.labelMiddleName.AutoSize = true;
-            this.labelMiddleName.Location = new System.Drawing.Point(26, 98);
+            this.labelMiddleName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMiddleName.Location = new System.Drawing.Point(22, 98);
             this.labelMiddleName.Name = "labelMiddleName";
-            this.labelMiddleName.Size = new System.Drawing.Size(56, 13);
+            this.labelMiddleName.Size = new System.Drawing.Size(62, 15);
             this.labelMiddleName.TabIndex = 10;
             this.labelMiddleName.Text = "Фамилия";
             // 
             // labelLastName
             // 
             this.labelLastName.AutoSize = true;
-            this.labelLastName.Location = new System.Drawing.Point(28, 124);
+            this.labelLastName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLastName.Location = new System.Drawing.Point(19, 124);
             this.labelLastName.Name = "labelLastName";
-            this.labelLastName.Size = new System.Drawing.Size(54, 13);
+            this.labelLastName.Size = new System.Drawing.Size(63, 15);
             this.labelLastName.TabIndex = 11;
             this.labelLastName.Text = "Отчество";
             // 
             // labelPosition
             // 
             this.labelPosition.AutoSize = true;
-            this.labelPosition.Location = new System.Drawing.Point(17, 150);
+            this.labelPosition.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPosition.Location = new System.Drawing.Point(10, 150);
             this.labelPosition.Name = "labelPosition";
-            this.labelPosition.Size = new System.Drawing.Size(65, 13);
+            this.labelPosition.Size = new System.Drawing.Size(74, 15);
             this.labelPosition.TabIndex = 12;
             this.labelPosition.Text = "Должность";
             // 
             // textBoxPhone
             // 
+            this.textBoxPhone.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPhone.Location = new System.Drawing.Point(88, 199);
             this.textBoxPhone.Name = "textBoxPhone";
-            this.textBoxPhone.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPhone.Size = new System.Drawing.Size(100, 23);
             this.textBoxPhone.TabIndex = 13;
             // 
             // textBoxPost
             // 
+            this.textBoxPost.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPost.Location = new System.Drawing.Point(88, 173);
             this.textBoxPost.Name = "textBoxPost";
-            this.textBoxPost.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPost.Size = new System.Drawing.Size(100, 23);
             this.textBoxPost.TabIndex = 14;
             // 
             // labelPost
             // 
             this.labelPost.AutoSize = true;
-            this.labelPost.Location = new System.Drawing.Point(47, 176);
+            this.labelPost.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPost.Location = new System.Drawing.Point(39, 176);
             this.labelPost.Name = "labelPost";
-            this.labelPost.Size = new System.Drawing.Size(37, 13);
+            this.labelPost.Size = new System.Drawing.Size(43, 15);
             this.labelPost.TabIndex = 15;
             this.labelPost.Text = "Почта";
             // 
             // labelPhone
             // 
             this.labelPhone.AutoSize = true;
-            this.labelPhone.Location = new System.Drawing.Point(30, 202);
+            this.labelPhone.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPhone.Location = new System.Drawing.Point(24, 202);
             this.labelPhone.Name = "labelPhone";
-            this.labelPhone.Size = new System.Drawing.Size(52, 13);
+            this.labelPhone.Size = new System.Drawing.Size(58, 15);
             this.labelPhone.TabIndex = 16;
             this.labelPhone.Text = "Телефон";
             // 
@@ -250,7 +271,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 341);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(740, 347);
             this.Controls.Add(this.labelPhone);
             this.Controls.Add(this.labelPost);
             this.Controls.Add(this.textBoxPost);

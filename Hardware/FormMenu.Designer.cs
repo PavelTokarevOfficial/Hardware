@@ -38,32 +38,44 @@
             // 
             // buttonSoldProduct
             // 
-            this.buttonSoldProduct.Location = new System.Drawing.Point(23, 102);
+            this.buttonSoldProduct.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonSoldProduct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonSoldProduct.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSoldProduct.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonSoldProduct.Location = new System.Drawing.Point(23, 122);
             this.buttonSoldProduct.Name = "buttonSoldProduct";
-            this.buttonSoldProduct.Size = new System.Drawing.Size(175, 23);
+            this.buttonSoldProduct.Size = new System.Drawing.Size(175, 36);
             this.buttonSoldProduct.TabIndex = 0;
             this.buttonSoldProduct.Text = "Учет проданного товара";
-            this.buttonSoldProduct.UseVisualStyleBackColor = true;
+            this.buttonSoldProduct.UseVisualStyleBackColor = false;
             this.buttonSoldProduct.Click += new System.EventHandler(this.buttonSoldProduct_Click);
             // 
             // buttonAddStaff
             // 
-            this.buttonAddStaff.Location = new System.Drawing.Point(23, 160);
+            this.buttonAddStaff.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAddStaff.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAddStaff.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAddStaff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonAddStaff.Location = new System.Drawing.Point(23, 214);
             this.buttonAddStaff.Name = "buttonAddStaff";
-            this.buttonAddStaff.Size = new System.Drawing.Size(175, 23);
+            this.buttonAddStaff.Size = new System.Drawing.Size(175, 36);
             this.buttonAddStaff.TabIndex = 1;
             this.buttonAddStaff.Text = "Добавление сотрудника";
-            this.buttonAddStaff.UseVisualStyleBackColor = true;
+            this.buttonAddStaff.UseVisualStyleBackColor = false;
             this.buttonAddStaff.Click += new System.EventHandler(this.buttonAddStaff_Click);
             // 
             // buttonAddProduct
             // 
-            this.buttonAddProduct.Location = new System.Drawing.Point(23, 131);
+            this.buttonAddProduct.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAddProduct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAddProduct.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAddProduct.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonAddProduct.Location = new System.Drawing.Point(23, 168);
             this.buttonAddProduct.Name = "buttonAddProduct";
-            this.buttonAddProduct.Size = new System.Drawing.Size(175, 23);
+            this.buttonAddProduct.Size = new System.Drawing.Size(175, 36);
             this.buttonAddProduct.TabIndex = 2;
             this.buttonAddProduct.Text = "Добавление товара";
-            this.buttonAddProduct.UseVisualStyleBackColor = true;
+            this.buttonAddProduct.UseVisualStyleBackColor = false;
             this.buttonAddProduct.Click += new System.EventHandler(this.buttonAddProduct_Click);
             // 
             // pictureBox1
@@ -79,6 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(233, 337);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonAddProduct);

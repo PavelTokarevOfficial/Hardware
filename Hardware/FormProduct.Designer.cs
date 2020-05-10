@@ -37,81 +37,95 @@
             this.labelDescription = new System.Windows.Forms.Label();
             this.labelCost = new System.Windows.Forms.Label();
             this.listViewProduct = new System.Windows.Forms.ListView();
-            this.textBoxTitle = new System.Windows.Forms.TextBox();
-            this.textBoxPart_Number = new System.Windows.Forms.TextBox();
-            this.textBoxCost = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBoxTitle = new System.Windows.Forms.TextBox();
+            this.textBoxPart_Number = new System.Windows.Forms.TextBox();
+            this.textBoxCost = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.richTextBoxDescription = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(492, 313);
+            this.buttonAdd.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAdd.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAdd.Location = new System.Drawing.Point(473, 313);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(86, 36);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Добавить";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(573, 313);
+            this.buttonEdit.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonEdit.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonEdit.Location = new System.Drawing.Point(565, 313);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(86, 36);
             this.buttonEdit.TabIndex = 1;
             this.buttonEdit.Text = "Изменить";
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(654, 313);
+            this.buttonDel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonDel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDel.Location = new System.Drawing.Point(657, 313);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(86, 36);
             this.buttonDel.TabIndex = 2;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
+            this.labelTitle.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTitle.Location = new System.Drawing.Point(12, 72);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(57, 13);
+            this.labelTitle.Size = new System.Drawing.Size(65, 15);
             this.labelTitle.TabIndex = 3;
             this.labelTitle.Text = "Название";
             // 
             // labelPart_Number
             // 
             this.labelPart_Number.AutoSize = true;
-            this.labelPart_Number.Location = new System.Drawing.Point(12, 98);
+            this.labelPart_Number.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPart_Number.Location = new System.Drawing.Point(23, 98);
             this.labelPart_Number.Name = "labelPart_Number";
-            this.labelPart_Number.Size = new System.Drawing.Size(48, 13);
+            this.labelPart_Number.Size = new System.Drawing.Size(54, 15);
             this.labelPart_Number.TabIndex = 4;
             this.labelPart_Number.Text = "Артикул";
             // 
             // labelDescription
             // 
             this.labelDescription.AutoSize = true;
-            this.labelDescription.Location = new System.Drawing.Point(6, 147);
+            this.labelDescription.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDescription.Location = new System.Drawing.Point(12, 150);
             this.labelDescription.Name = "labelDescription";
-            this.labelDescription.Size = new System.Drawing.Size(57, 13);
+            this.labelDescription.Size = new System.Drawing.Size(65, 15);
             this.labelDescription.TabIndex = 5;
             this.labelDescription.Text = "Описание";
             // 
             // labelCost
             // 
             this.labelCost.AutoSize = true;
-            this.labelCost.Location = new System.Drawing.Point(12, 124);
+            this.labelCost.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCost.Location = new System.Drawing.Point(5, 124);
             this.labelCost.Name = "labelCost";
-            this.labelCost.Size = new System.Drawing.Size(62, 13);
+            this.labelCost.Size = new System.Drawing.Size(72, 15);
             this.labelCost.TabIndex = 6;
             this.labelCost.Text = "Стоимость";
             // 
@@ -126,7 +140,7 @@
             this.listViewProduct.FullRowSelect = true;
             this.listViewProduct.GridLines = true;
             this.listViewProduct.HideSelection = false;
-            this.listViewProduct.Location = new System.Drawing.Point(175, 12);
+            this.listViewProduct.Location = new System.Drawing.Point(189, 12);
             this.listViewProduct.MultiSelect = false;
             this.listViewProduct.Name = "listViewProduct";
             this.listViewProduct.Size = new System.Drawing.Size(554, 295);
@@ -134,36 +148,6 @@
             this.listViewProduct.UseCompatibleStateImageBehavior = false;
             this.listViewProduct.View = System.Windows.Forms.View.Details;
             this.listViewProduct.SelectedIndexChanged += new System.EventHandler(this.listViewProduct_SelectedIndexChanged);
-            // 
-            // textBoxTitle
-            // 
-            this.textBoxTitle.Location = new System.Drawing.Point(69, 69);
-            this.textBoxTitle.Name = "textBoxTitle";
-            this.textBoxTitle.Size = new System.Drawing.Size(100, 20);
-            this.textBoxTitle.TabIndex = 8;
-            // 
-            // textBoxPart_Number
-            // 
-            this.textBoxPart_Number.Location = new System.Drawing.Point(69, 95);
-            this.textBoxPart_Number.Name = "textBoxPart_Number";
-            this.textBoxPart_Number.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPart_Number.TabIndex = 9;
-            // 
-            // textBoxCost
-            // 
-            this.textBoxCost.Location = new System.Drawing.Point(69, 121);
-            this.textBoxCost.Name = "textBoxCost";
-            this.textBoxCost.Size = new System.Drawing.Size(100, 20);
-            this.textBoxCost.TabIndex = 11;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 51);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
             // 
             // columnHeader1
             // 
@@ -188,10 +172,46 @@
             this.columnHeader5.Text = "Стоимость";
             this.columnHeader5.Width = 75;
             // 
+            // textBoxTitle
+            // 
+            this.textBoxTitle.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxTitle.Location = new System.Drawing.Point(83, 69);
+            this.textBoxTitle.Name = "textBoxTitle";
+            this.textBoxTitle.Size = new System.Drawing.Size(100, 23);
+            this.textBoxTitle.TabIndex = 8;
+            // 
+            // textBoxPart_Number
+            // 
+            this.textBoxPart_Number.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxPart_Number.Location = new System.Drawing.Point(83, 95);
+            this.textBoxPart_Number.Name = "textBoxPart_Number";
+            this.textBoxPart_Number.Size = new System.Drawing.Size(100, 23);
+            this.textBoxPart_Number.TabIndex = 9;
+            // 
+            // textBoxCost
+            // 
+            this.textBoxCost.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxCost.Location = new System.Drawing.Point(83, 121);
+            this.textBoxCost.Name = "textBoxCost";
+            this.textBoxCost.Size = new System.Drawing.Size(100, 23);
+            this.textBoxCost.TabIndex = 11;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(157, 51);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // richTextBoxDescription
             // 
-            this.richTextBoxDescription.Location = new System.Drawing.Point(69, 147);
+            this.richTextBoxDescription.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBoxDescription.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBoxDescription.Location = new System.Drawing.Point(83, 150);
             this.richTextBoxDescription.Name = "richTextBoxDescription";
+            this.richTextBoxDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.richTextBoxDescription.Size = new System.Drawing.Size(100, 96);
             this.richTextBoxDescription.TabIndex = 13;
             this.richTextBoxDescription.Text = "";
@@ -200,7 +220,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(741, 349);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(751, 356);
             this.Controls.Add(this.richTextBoxDescription);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBoxCost);
