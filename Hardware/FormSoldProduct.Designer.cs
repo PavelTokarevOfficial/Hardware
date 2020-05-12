@@ -213,7 +213,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormSoldProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " ";
+            this.Text = " Учет проданного товара";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
