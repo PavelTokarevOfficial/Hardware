@@ -39,7 +39,7 @@
             // 
             // buttonSoldProduct
             // 
-            this.buttonSoldProduct.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonSoldProduct.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonSoldProduct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonSoldProduct.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSoldProduct.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -53,7 +53,7 @@
             // 
             // buttonAddStaff
             // 
-            this.buttonAddStaff.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAddStaff.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonAddStaff.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonAddStaff.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAddStaff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -67,7 +67,7 @@
             // 
             // buttonAddProduct
             // 
-            this.buttonAddProduct.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAddProduct.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonAddProduct.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonAddProduct.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAddProduct.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -90,7 +90,7 @@
             // 
             // buttonCancel
             // 
-            this.buttonCancel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonCancel.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonCancel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonCancel.Location = new System.Drawing.Point(23, 261);

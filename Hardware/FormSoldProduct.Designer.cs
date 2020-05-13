@@ -79,7 +79,7 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAdd.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonAdd.Location = new System.Drawing.Point(419, 461);
             this.buttonAdd.Name = "buttonAdd";
@@ -91,7 +91,7 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonEdit.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonEdit.Location = new System.Drawing.Point(515, 461);
             this.buttonEdit.Name = "buttonEdit";
@@ -103,7 +103,7 @@
             // 
             // buttonDel
             // 
-            this.buttonDel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonDel.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonDel.Location = new System.Drawing.Point(611, 461);
             this.buttonDel.Name = "buttonDel";

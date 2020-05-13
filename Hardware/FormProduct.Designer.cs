@@ -52,7 +52,7 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAdd.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonAdd.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd.Location = new System.Drawing.Point(473, 313);
@@ -65,7 +65,7 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonEdit.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonEdit.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEdit.Location = new System.Drawing.Point(565, 313);
@@ -78,7 +78,7 @@
             // 
             // buttonDel
             // 
-            this.buttonDel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonDel.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonDel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDel.Location = new System.Drawing.Point(657, 313);

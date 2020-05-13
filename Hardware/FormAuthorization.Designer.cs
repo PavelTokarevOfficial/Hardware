@@ -89,7 +89,7 @@
             // 
             // buttonOK
             // 
-            this.buttonOK.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOK.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonOK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOK.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOK.Location = new System.Drawing.Point(15, 172);
@@ -102,7 +102,7 @@
             // 
             // buttonCancel
             // 
-            this.buttonCancel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonCancel.BackColor = System.Drawing.Color.LightSalmon;
             this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonCancel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonCancel.Location = new System.Drawing.Point(129, 172);
